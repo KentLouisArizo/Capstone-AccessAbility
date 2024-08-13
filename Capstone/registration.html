@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Accessibility Support</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Register</h1>
+    </header>
+    <main>
+        <form id="regForm" action="dashboard.html">
+            <div class="tab">
+                <h2>Personal Information:</h2>
+                <p><input placeholder="Last Name" oninput="this.className = ''"></p>
+                <p><input placeholder="First Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Middle Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Suffix" oninput="this.className = ''"></p>
+                <p><input placeholder="Age" type="number" oninput="this.className = ''"></p>
+                <p><input placeholder="Email" type="email" oninput="this.className = ''"></p>
+                <p><input placeholder="Mobile #" type="tel" oninput="this.className = ''"></p>
+                <p><input placeholder="Password" type="password" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Demographics:</h2>
+                <p><input placeholder="Date Applied" oninput="this.className = ''"></p>
+                <p><input placeholder="Birth Date" oninput="this.className = ''"></p>
+                <p><input placeholder="Sex" oninput="this.className = ''"></p>
+                <p><input placeholder="Civil Status" oninput="this.className = ''"></p>
+                <p><input placeholder="Religion" oninput="this.className = ''"></p>
+                <p><input placeholder="Ethnicity" oninput="this.className = ''"></p>
+                <p><input placeholder="Position" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Disability Information:</h2>
+                <p><input placeholder="Type of Disability" oninput="this.className = ''"></p>
+                <p><input placeholder="Date of Disability" oninput="this.className = ''"></p>
+                <p><input placeholder="Disability Type" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Additional Information:</h2>
+                <p><input placeholder="Educational Background" oninput="this.className = ''"></p>
+                <p><input placeholder="Employment Status" oninput="this.className = ''"></p>
+                <p><input placeholder="Employment Type" oninput="this.className = ''"></p>
+                <p><input placeholder="Occupation" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Family Information:</h2>
+                <p><input placeholder="Father's Last Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Father's First Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Mother's Maiden Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Guardian's Name" oninput="this.className = ''"></p>
+                <p><input placeholder="Contact Name" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Contact Information:</h2>
+                <p><input placeholder="Contact Person" oninput="this.className = ''"></p>
+                <p><input placeholder="Contact Tel #" oninput="this.className = ''"></p>
+                <p><input placeholder="Landline #" oninput="this.className = ''"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Upload Documents:</h2>
+                <p><input type="file" id="profileImage" accept="image/*"></p>
+                <p><input type="file" id="idUpload" accept="image/*"></p>
+            </div>
+
+            <div class="tab">
+                <h2>Finalize Registration:</h2>
+                <p>Registration has been successfully submitted. Please wait for approval.</p>
+            </div>
+
+            <div style="overflow:auto;">
+                <div style="float:right;">
+                    <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                    <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                </div>
+            </div>
+
+            <div style="text-align:center;margin-top:40px;">
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+                <span class="step"></span>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Accessibility Support</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
