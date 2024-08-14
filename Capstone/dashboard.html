@@ -3,23 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Accessibility Support</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Admin Dashboard</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Additional or specific styles for the dashboard */
+        .header {
+            background-color: #004d99;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 50px;
+            vertical-align: middle;
+        }
+        .header h1 {
+            display: inline;
+            margin: 0;
+            font-size: 24px;
+            vertical-align: middle;
+        }
+        .header .admin-info {
+            float: right;
+            margin-right: 20px;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+        }
+        .admin-info i {
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        .welcome {
+            text-align: center;
+            padding: 20px;
+            background-color: #e0e0e0;
+            font-size: 16px;
+            color: #333;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .service {
+            width: 120px;
+            text-align: center;
+            margin: 10px;
+        }
+        .service img {
+            width: 50px;
+            height: 50px;
+        }
+        .service p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Dashboard</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="login.html">Logout</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome to your dashboard!</h2>
-        <p>Here you can manage your profile, view your support history, and access resources.</p>
-    </main>
-    <footer>
-        <p>&copy; 2024 Accessibility Support</p>
-    </footer>
+
+    <div class="header">
+        <h1>LOGO</h1>
+        <span class="admin-info">Welcome! Admin
+            <i class="bell">&#128276;</i>
+            <i class="user">&#128100;</i>
+        </span>
+    </div>
+
+    <div class="welcome">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/filter.png" alt="Search Filter">
+            <p>Search Filter</p>
+        </div>
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/print.png" alt="Print Record">
+            <p>Print Record</p>
+        </div>
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/megaphone.png" alt="Announcement">
+            <p>Announcement</p>
+        </div>
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/report-card.png" alt="GReport">
+            <p>GReport</p>
+        </div>
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/user-shield.png" alt="Verify User">
+            <p>Verify User</p>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/wheelchair.png" alt="Accessibility">
+            <p>Text</p>
+        </div>
+        <div class="service">
+            <img src="https://img.icons8.com/ios-filled/50/000000/conference.png" alt="User Management">
+            <p>Text</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; Copyright</p>
+    </div>
+
 </body>
 </html>

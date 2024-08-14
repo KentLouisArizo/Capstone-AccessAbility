@@ -98,3 +98,57 @@ button:hover {
 .button-container a:hover {
     background-color: #1e1d7b;
 }
+
+.header {
+    background-color: #004d99;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.header img {
+    width: 50px;
+    vertical-align: middle;
+}
+.header h1 {
+    display: inline;
+    margin: 0;
+    font-size: 24px;
+    vertical-align: middle;
+}
+.header .admin-info {
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.admin-info i {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.welcome {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    font-size: 16px;
+    color: #333;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.service {
+    width: 120px;
+    text-align: center;
+    margin: 10px;
+}
+.service img {
+    width: 50px;
+    height: 50px;
+}
+.service p {
+    font-size: 14px;
+    margin-top: 10px;
+}
